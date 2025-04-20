@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center  w-screen px-10 bg-slate-900">
+    <div className="flex justify-between items-center bg-slate-900 px-4">
       <div className="flex items-center gap-10 text-slate-200">
         <img
           src="/icon/netflix.png"

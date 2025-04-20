@@ -1,11 +1,13 @@
-// import React from "react";
 import Navbar from "./navbar";
-import FeatureMovies from "./featurMovie/featureMovies";
+import FeatureMovies from "./featurMovie";
+import Trending from "./trending";
+
 const Container = () => {
   return (
-    <div className="container">
+    <div>
       <Navbar />
       <FeatureMovies />
+      <Trending />
     </div>
   );
 };
